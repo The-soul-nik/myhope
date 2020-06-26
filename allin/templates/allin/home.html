@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <div class="up">
+      <a href="https://vk.com/public195225601">Мой Паблик вк</a>
+
+    </div>
+    <div class="content">
+      <h1>Это мой тестовый сайт</h1>
+
+      <em>Каждый div обведен рамкой</em>
+    </div>
+    <div class="picture">
+      <h2>Картинка</h2>
+      <img src="{% static 'blacksoul.png' %}"/>
+      <em>Просто так, пусть здесь будет</em>
+    </div>
+    <div class="cicle">
+      <h1>Для БД</h1>
+      <a href="{% url 'allin:articles' %}">Articles</a>
+      <a href="{% url 'allin:god' %}">Gods</a>
+
+    </div>
+
+  </body>
+</html>

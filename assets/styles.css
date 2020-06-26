@@ -1,0 +1,32 @@
+body{
+   background-image: url(/static/boat.png);
+   position: fixed;
+
+}
+
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+a:hover{
+  color: #7797BF;
+}
+
+h1{
+  color:#BAA9C0;
+}
+em{
+  color: white;
+  font-size: 20px;
+}
+
+div{
+  border: 2px solid #BDB2C7;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+h2{
+  color: #446A9E;
+}
